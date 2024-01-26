@@ -1,0 +1,30 @@
+#cart-container {
+    position: relative;
+    /*border: 2px solid green;*/
+}
+
+#cart-container figure {
+    width: 50px;
+    overflow: hidden;
+    /*border: 3px ridge tomato;*/
+}
+
+#cart-container figure img {
+    display: block;
+    max-width: 100%;    
+    height: auto;
+    
+    
+}
+
+#cart-item-count {
+    position: absolute;
+    border-radius: 200%;
+    border: 2px solid yellow;
+    background-color: red;
+    top: 0px;
+    right: 0px;
+    font-weight: bold;
+    color: white;
+    padding: 2px 4px; 
+}

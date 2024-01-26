@@ -1,0 +1,54 @@
+#details {
+    padding: 24px 32px;
+}
+
+#details h2 {
+    margin-bottom: 16px;
+}
+
+#details label{
+    display: block;
+    font-size: 20px;
+    margin: 8px 0;
+    font-weight: bold;
+
+}
+
+
+
+#details input {
+    height: 32px;
+    width: 300px;
+    padding: 0px 5px;
+}
+
+#details button {
+    height: 40px;
+    width: 320px;
+    margin: 16px 0;
+    background-color: rebeccapurple;
+    color: white;
+    display: block;
+}
+
+#details button:hover {
+    cursor: pointer;
+    background-color: rgb(12, 64, 122);
+}
+
+#details p {
+    font-weight: 500; 
+}
+
+#forgot-password {
+    color: blue;
+    margin: 8px 0px;
+}
+
+#details div {
+    margin: 8px 0px
+}
+
+.onboarding-error {
+    color: red;
+}

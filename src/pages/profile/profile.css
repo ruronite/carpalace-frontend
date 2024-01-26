@@ -1,0 +1,57 @@
+/*#user-profile > section {
+    text-align: center;
+}*/
+#logout {
+    padding: 8px;
+    background-color: red;
+    color: white ;
+    transition: all 450ms ease-in; 
+}
+
+#logout:hover {
+    cursor: pointer;
+    background: darkred;
+}
+
+
+#profile-hero {
+    margin: 20px auto;
+    width: max-content;
+    /*border: 2px red solid;*/
+}
+
+#profile-hero > h4 {
+    text-align: center;
+}
+
+.profile-img-container {
+    border-radius: 100%;
+    width: 50px;
+    overflow: hidden;
+    margin: 5px auto;
+    
+}
+
+.profile-img-container > img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+#personal-info{
+    margin: 2px 16px;
+}
+
+.info-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    margin: 1px 0px;
+}
+
+#user-profile  footer {
+    margin-top: 200px;
+}
