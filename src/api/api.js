@@ -1,6 +1,6 @@
 //local endpoint 
-const endpoint = "http://localhost:8000";
-//const endpoint = "https://carpalace-backend.onrender.com"
+//const endpoint = "http://localhost:8000";
+const endpoint = "https://carpalace-backend.onrender.com"
 
 const getCart = async () => {
     try {
